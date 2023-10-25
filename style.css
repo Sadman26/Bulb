@@ -1,0 +1,35 @@
+.bulb {
+  background-color: rgb(183, 225, 236);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+}
+.bulb h1 {
+  text-align: center;
+  padding: 75px;
+}
+.btn {
+  text-align: center;
+  display: flexbox;
+  flex-direction: column;
+}
+.btn button#on {
+  background-color: rgba(99, 255, 9, 0.776);
+  padding: 20px;
+  border-radius: 50%;
+}
+.btn button#off {
+  background-color: red;
+  padding: 20px;
+  border-radius: 50%;
+}
+.btn button {
+  margin: 10px;
+  margin-top: 100px;
+  border-color: black;
+  border-style: solid;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
